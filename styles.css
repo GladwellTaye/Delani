@@ -1,0 +1,62 @@
+.home{
+  background-image:url(images/HOME.jpg);
+  height: 100vh;
+}
+#images{
+  position: relative;
+}
+#imagel{
+ margin-top: 19%;
+ float: center;
+ font-size: 16;
+}
+#about{
+  font-size: xx-large;
+}
+#about h1{
+  text-align: center;
+}
+#about > p{
+  text-align: center;
+  font-size: 25px;
+}
+#service{
+  background-image: url(images/serve.jpg);
+  height: 50vh;
+  background-repeat: no-repeat;
+}
+
+#service{
+ text-align: center;
+ padding-top: 5rem;
+}
+#service h1{
+  font-size: 50px;
+}
+#service p{
+  font-size: 17px;
+  /* flex-direction: row; */
+}
+#wwd h1{
+  text-align: center;
+}
+/* #icons{
+  flex-direction: column;
+  flo
+} */
+#icons >#iconl{
+  float: left;
+}
+#icons >#iconll{
+float: center;
+}
+#icons >#iconlll{
+  float: right;
+}
+#port h1{
+text-align: center;
+}
+.person{
+  padding: 150px;
+  padding-top: 1%;
+}
