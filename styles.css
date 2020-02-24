@@ -1,6 +1,6 @@
 .home{
   background-image:url(images/HOME.jpg);
-  height: 100vh;
+  background: cover;
 }
 #images{
   position: relative;
@@ -22,8 +22,9 @@
 }
 #service{
   background-image: url(images/serve.jpg);
-  height: 50vh;
+  background: cover;
   background-repeat: no-repeat;
+  padding-bottom: 30px;
 }
 
 #service{
@@ -34,7 +35,7 @@
   font-size: 50px;
 }
 #service p{
-  font-size: 17px;
+  font-size: 18px;
   /* flex-direction: row; */
 }
 #wwd h2{
@@ -82,9 +83,9 @@ color: aliceblue;
   text-align: center;
 }
 .contacts{
-  width: 1250px;
+  padding-top: 20px;
   margin-right: 20px;
-  
+  padding-bottom: 20px;
 }
 #port{
   text-align: center;
@@ -116,10 +117,35 @@ color: aliceblue;
 .click{
   margin: 20px;
   margin-top:10%;
+  padding-bottom: 20px;
+  
 }
 #hideP{
   display: none;
 }
 #last{
+  padding-top: 20px;
   text-align: center;
+  padding-bottom: 10px;
+}
+.container{
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.row{
+  text-align: center;
+}
+.person p{
+  font-size: 18px;
+}
+.person{
+  padding-bottom: 0px;
+}
+.zoomL{
+  /* padding: 0px;
+  transition: transform .2s; 
+  width: 20px;
+  height: 20px; */
+  margin: 0 auto;
 }
