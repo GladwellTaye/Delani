@@ -6,14 +6,8 @@
     <title>Delani Studio</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="styles.css">
-    <script src="js/jquery-migrate-1.4.1.js"></script>
-    <script src="js/script.js"></script>
-
+    <script src="./js/jquery-3.4.1.js"></script>
   
-  
-    
-
-
 </head>
 <body>
     <div class="container"> 
@@ -67,55 +61,42 @@
              </div>
       </div>
     
-       <div class="container-fluid">
-        <div id="wwd">
-            <h2>WHAT WE DO</h2>
-          <div class="person">
-            <div class="row">
-                <figure class="col-md-4">
-                    <div id="hide">
-                        <img src="images/design_icon.png" id="desIgn">
-                        <h4>DESIGN</h4>
-                    </div>
-                    <div id="hideP">
-                
-                        <p>Our design practice offers a full range of services including brand strategy,
-                        interaction and
-                        visual
-                        design and user experience testing.
-                        Throughout your project, our designers create and implement visual design and workflows, solicit
-                        user feedback and work with you to make sure what gets built is what is needed.</p>
-                    </div>
-                </figure> 
-            
-                    <figure class="col-md-4">
-                        <img src="images/dev_icon.png">
-                        <h5>DEVELOPMENT</h5>
-                        <p>All engineers are fluent in the latest enterprise, mobile and web development
-                            technologies.
-                            They collaborate with your team to write, and improve code on a daily basis, using proven
-                            practices such as test-driven development and pair programming.</p>
-                    </figure>
-                   
-                    <figure class="col-md-4">
-                        <img src="images/product_icon.png">
-                        <h6><strong>PRODUCT MANAGEMENT</strong></h6>
-                        <p>Planning and development is iterative. Because we are constantly coding and testing, the
-                            products we
-                            build are always ready to go live.
-                            This iterative process allows for changes as business requirements evolve.</p>
-                    </figure>
+ 
+    <div class="row">
+        <div class="col-md-4">
+          <div id="design-image">
+            <img src="images/design_icon.png" id="desIgn">
+            <p>DESIGN</p>
           </div>
-            
-             </div>
-    
-          
-            </div>
-            
-    
+          <div id="design">
+            <h3>Design</h3>
+            <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
+              <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+          </div>
         </div>
-       
-   
+        <div class="col-md-4">
+          <div id="development-image">
+            <img src="images/dev_icon.png">
+            <P>DEVELOPMENT</P>
+          </div>
+          <div id="development">
+            <h3>Development</h3>
+            <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+               <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div id="product-image">
+            <img src="images/product_icon.png">
+            <P>PRODUCT MANAGEMENT</P>
+          </div>
+          <div id="product">
+            <h3>product management</h3>
+            <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+            <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+          </div>
+        </div>
+      </div>
     
         <div class="container">
             <div class="container">
@@ -202,14 +183,14 @@
                 <h1>CONTACT US</h1>
                 <br>
                 <br>
-                <form>
+                <form action="https://gmail.us4.list-manage.com/subscribe/post?u=b32aba97f2a8af31b8cf102ba&amp;id=0e25e02961" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidat>
                     <div class="row">
                         <div class="col-md-6">
-                            <input type="text" class="form-control" id="Name" placeholder="Name..."
+                            <input type="text" name="FNAME" class="form-control" id="mce-FNAME" placeholder="Name..."
                                 style="background-color: transparent" style="text-emphasis-color: white">
                         </div>
                         <div class="col-md-6">
-                            <input type="email" class="form-control" id="Email" placeholder="Email..."
+                            <input type="email" class="required email"name="EMAIL" id="mce-EMAIL" placeholder="Email..."
                                 style="background-color: transparent" style="text-emphasis-color:white">
                         </div>
                     </div>
@@ -218,7 +199,13 @@
                     <textarea class="form-control" rows="9" placeholder="your message here..."
                         style="background-color: transparent" style="text-emphasis-color:white" id="Message"></textarea>
                     <br><br>
-                    <button type="button" id="submit" class="btn btn-primary">submit</button>
+                    <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b32aba97f2a8af31b8cf102ba_0e25e02961" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </div>
                 </form>
             </div>
         </div>
@@ -281,6 +268,6 @@
        <h1> DELANI STUDIO</h1>
        <h2> 2020</h2>
    </div>
-   <script src="./scripts.js"></script>
+   <script src="./js/script.js"></script>
 </body>
 </html>

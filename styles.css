@@ -91,9 +91,8 @@ color: aliceblue;
   text-align: center;
   color: black;
 }
-#{
-  display: none;
-}
+
+
 .zoom {
   padding: 0px;
   transition: transform .2s; 
