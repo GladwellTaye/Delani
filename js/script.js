@@ -1,7 +1,10 @@
-$("#hide").click(function(){
+$(document).ready(function(){
+  $("#hide").click(function(){
     $("p").hide();
    });
   
-  $("#hide").click(function(){
-    $("pp").show();
+  $(".col-md-4").click(function(){
+    $("#desIgn").toggle();
+    $("#hideP").toggle();
   });
+})
