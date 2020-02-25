@@ -5,7 +5,7 @@ $(document).ready(function(){
   });
   $("#development").click(function(){
     $("#development-image").slideDown('1100');
-    $("#development").slideUp('1000');
+    $("#development").slideUp('100');
   });
   $("#design-image").click(function(){
     $("#design-image").slideDown('1000').hide('1200');
