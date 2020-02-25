@@ -146,3 +146,9 @@ color: aliceblue;
   */
   margin: 0 auto;
 }
+#design p{
+  display: none;
+}
+#development p{
+  display: none;
+}
