@@ -20,6 +20,7 @@ $(document).ready(function(){
   $("#product-image").click(function(){
     $("#product-image").slideDown('1500').hide('1000');
     $("#product").show('1500');
+    $("#product p").show();
   });
   $("#product").click(function(){
     $("#product").slideUp('1500');
