@@ -1,12 +1,12 @@
 .home{
   background-image:url(images/HOME.jpg);
-  height: 100vh;
+  background: cover;
 }
 #images{
   position: relative;
 }
 #imagel{
- margin-top: 19%;
+ margin-top: 29%;
  float: center;
  font-size: 16;
 }
@@ -22,8 +22,9 @@
 }
 #service{
   background-image: url(images/serve.jpg);
-  height: 50vh;
+  background: cover;
   background-repeat: no-repeat;
+  padding-bottom: 30px;
 }
 
 #service{
@@ -34,11 +35,12 @@
   font-size: 50px;
 }
 #service p{
-  font-size: 17px;
+  font-size: 18px;
   /* flex-direction: row; */
 }
-#wwd h1{
+#wwd h2{
   text-align: center;
+  color: black;
 }
 /* #icons{
   flex-direction: column;
@@ -55,8 +57,101 @@ float: center;
 }
 #port h1{
 text-align: center;
+color: aliceblue;
 }
 .person{
   padding: 150px;
   padding-top: 1%;
+}
+.contacts{
+  background-image: url(images/c_image.jpg);
+}
+.contacts h1{
+  text-align: center;
+  color: aliceblue;
+}
+#service{
+  color: aliceblue;
+}
+#images{
+  color: aliceblue;
+}
+#first{
+  font-size: 10px;
+}
+.sos{
+  text-align: center;
+}
+.contacts{
+  padding-top: 20px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+}
+#port{
+  text-align: center;
+  color: black;
+}
+
+
+.zoom {
+  padding: 0px;
+  transition: transform .2s; 
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+.zoom:hover {
+  transform: scale(1.5); 
+}
+
+.top{
+  background-image: url(../images/h_img.jpg);
+  background-size: cover;
+  background-position:center center ;
+  color:white;
+  font-family: 'Open Sans', 'Oxygen';
+  text-align: center;
+  padding-top:17%;
+}
+.click{
+  margin: 20px;
+  margin-top:10%;
+  padding-bottom: 20px;
+  
+}
+#hideP{
+  display: none;
+}
+#last{
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.container{
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.row{
+  text-align: center;
+}
+.person p{
+  font-size: 18px;
+}
+.person{
+  padding-bottom: 0px;
+}
+.zoomL{
+  /* ;
+  */
+  margin: 0 auto;
+}
+#design p{
+  display: none;
+}
+#development p{
+  display: none;
+}
+#product p{
+  display: none;
 }
