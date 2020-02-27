@@ -26,6 +26,10 @@ $(document).ready(function(){
     $("#product").slideUp('1500');
     $("#product-image").slideDown('1500');
   });
+
+  $("#mc-embedded-subscribe").click(function(){
+    alert("Your message has been submitted");
+  })
 });
 
 
